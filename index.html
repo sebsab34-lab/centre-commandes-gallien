@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Centre de Commandes — Gallien &amp; Andrieu</title>
+<meta name="description" content="Outil interne de prise de commande et de planification des livraisons des sociétés Gallien et Andrieu.">
+<style>
+  :root { --fond: #f4f6f9; --carte: #ffffff; --texte: #142030; --doux: #4a5a6c; --bord: #dde3ea; --accent: #2a78d6; }
+  @media (prefers-color-scheme: dark) { :root { --fond: #0c1219; --carte: #141e2b; --texte: #e8edf3; --doux: #a9b6c5; --bord: #1f3044; --accent: #4b93ff; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--fond); color: var(--texte); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px; }
+  .carte { background: var(--carte); border: 1px solid var(--bord); border-radius: 14px; padding: 28px 30px; }
+  h1 { margin: 0 0 6px; font-size: 26px; }
+  .sous { color: var(--doux); margin: 0 0 22px; }
+  h2 { font-size: 17px; margin: 24px 0 6px; }
+  p, li { color: var(--texte); }
+  .doux { color: var(--doux); font-size: 14px; }
+  a { color: var(--accent); }
+  footer { margin-top: 22px; font-size: 14px; color: var(--doux); text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <div class="carte">
+    <h1>⛽ Centre de Commandes</h1>
+    <p class="sous">Outil interne des sociétés Gallien et Andrieu (distribution de fioul, GNR et gazole).</p>
+
+    <h2>À quoi il sert</h2>
+    <p>Le Centre de Commandes sert au personnel des deux sociétés à prendre les commandes de livraison des clients :
+      recherche du client, commande avec la grille de tarifs, placement de la livraison dans l'agenda Google du
+      chauffeur, planning des chauffeurs, tournées, suivi des demandes de prix et liste d'attente.</p>
+
+    <h2>Qui l'utilise</h2>
+    <p>Uniquement le personnel de Gallien et d'Andrieu, chacun avec son nom et son code personnel. L'outil tourne sur
+      le serveur interne de l'entreprise ; il n'est pas ouvert au public. Ce site ne sert qu'à le présenter.</p>
+
+    <h2>Google Agenda</h2>
+    <p>Avec l'autorisation « Google Agenda » du compte de l'entreprise, l'outil lit les rendez-vous des agendas des
+      chauffeurs et de l'entreprise, et y crée, modifie, déplace ou supprime les rendez-vous de livraison. Il n'utilise
+      aucune autre donnée Google.</p>
+
+    <p><a href="confidentialite.html">Règles de confidentialité</a> · <a href="conditions.html">Conditions d'utilisation</a></p>
+    <p class="doux">Contact : <a href="mailto:sebastien.sabate@gmail.com">sebastien.sabate@gmail.com</a></p>
+  </div>
+  <footer>Gallien &amp; Andrieu — Centre de Commandes</footer>
+</main>
+</body>
+</html>
